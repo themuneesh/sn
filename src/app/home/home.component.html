@@ -1,0 +1,21 @@
+<div class="container-fluid con">
+  <h1 class="my-4">Featured</h1>
+  <div class="row">
+    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 portfolio-item"  *ngFor="let feature of featured">
+      <div class="card h-100">
+          <img [src]="feature.link"  class="card-img-top">
+          <div class="card-body">
+          <h5 class="card-title">{{feature.title}}</h5>
+          <p class="card-text">{{feature.price}}</p>
+          <p class="card-text"><small class="text-muted">{{feature.offer}}</small></p>
+          <a href="#" class="btn btn-primary">View Details</a>
+          <div class="icon-con">
+            <span><i class="material-icons">thumb_up</i></span>
+            <span><i class="material-icons">thumb_down</i></span>
+            <span><i class="material-icons">share</i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

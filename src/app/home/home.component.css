@@ -1,0 +1,42 @@
+.con {
+    margin-top: 20px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.icon-con {
+    margin: 10px 5px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+@keyframes shade {
+    from {width: 10%}
+    to { width: 100%}
+}
+
+i:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+}

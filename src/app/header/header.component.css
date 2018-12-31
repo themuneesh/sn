@@ -1,0 +1,28 @@
+.container-fluid {
+    padding: 0px;
+}
+
+.bg-light {
+    background-color: dodgerblue !important;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        justify-content: flex-end;
+    }
+}
